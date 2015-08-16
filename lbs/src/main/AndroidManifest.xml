@@ -37,15 +37,15 @@
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="9GzLNY3AVPNpiGk9gtkEs0ez" />
 
-        <activity
-            android:name=".MapActivity"
-            android:label="@string/title_activity_map" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <!--<activity-->
+            <!--android:name=".MapActivity"-->
+            <!--android:label="@string/title_activity_map" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
 
         <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote">
         </service>
